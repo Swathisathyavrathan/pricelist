@@ -1,0 +1,20 @@
+#include<stdio.h>
+main()
+{
+int food;
+printf("select the number against choice food iem from the list of food items available  :\n 1. Pizza\n2.Burger\n3.Pasta\n4.French Fries\n5.Sandwitch\n");
+scanf("%d",&food);
+switch(food)
+{
+case 1:printf("food item :pizza\n price:Rs179");
+break;
+case 2:printf("food item:Burger\nPrice:Rs129");
+break;
+case 3:printf("Food item:Pasta\nPrice:Rs179");
+break;
+case 4:printf("Food item:French Fries\nPrice:Rs99");
+break;
+case 5:printf("Food item:Sandwitch\nPrice:Rs:149");
+break;
+default:printf("this itemis currently unavailable");
+}}
